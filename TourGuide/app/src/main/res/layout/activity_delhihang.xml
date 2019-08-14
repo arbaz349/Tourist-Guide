@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_layout"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/infp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="1. Buddha Garden"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="295dp"
+            app:srcCompat="@drawable/dh1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Buddha Garden in Delhi is a great place for couples. Whether you want to go for romantic walks or just sit cosily under the trees curling up with your sweetheart, this place is where you can do both." />
+
+        <TextView
+            android:id="@+id/mon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="2.Dine at the Rose Cafe, Saket"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="377dp"
+            app:srcCompat="@drawable/dh2" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The moment you enter this romantic cafe, you will believe you are in wonderland. The cafe is beautifully decorated with plush interiors, and contemporary décor, making it ideal for a date night. " />
+
+        <TextView
+            android:id="@+id/hang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="3.Parthasarathy Rocks"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            app:srcCompat="@drawable/dh3" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It is always said that watching the sun go down is a cliché couple’s thing to do. In Delhi, many couples come to the Parthasarathy Rocks to watch the sunset, after which, they head out for a nice meal at a restaurant or cafe nearby.  " />
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="4. Delhi Eye"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            app:srcCompat="@drawable/dh4" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delhi Eye is one of the most romantic things to do in Delhi. Apart from this, you will also witness stunning views of Delhi’s skyline and the beautiful horizon. " />
+
+        <TextView
+            android:id="@+id/rest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="5.Indian Mountaineering Foundation Adventures"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            app:srcCompat="@drawable/dh5" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A great place to hangout with friends and enjoy some outdoor adventure sport is the Indian Mountaineering Foundation Adventures centre. This place has some fun and crazy activities for young adventurous folks such as  sports and rock climbing as well as trekking. Wall climbing is open from 9 am to 1 pm and 2 pm to 4 pm"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.com.firebaseauth">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+    <!-- Maps API needs OpenGL ES 2.0. -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.example.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBarMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity
+            android:name=".Start"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_compass"
+            android:label="Compass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity_whether"
+            android:label="City Weather" />
+        <activity
+            android:name=".activity_city"
+            android:label="City Weather" />
+        <activity
+            android:name=".activity_checklist"
+            android:label="Check List" />
+        <activity android:name=".pune" />
+        <activity android:name=".mumbai" />
+        <activity android:name=".bangalore" />
+        <activity android:name=".delhi" />
+        <activity android:name=".hyderabad" />
+        <activity android:name=".jaipur" />
+        <activity android:name=".chennai" />
+        <activity android:name=".ahmedabad" />
+        <activity android:name=".kolkata" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".puneloc"
+            android:label="@string/title_activity_puneloc" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".mumbailoc"
+            android:label="@string/title_activity_mumbailoc" />
+        <activity
+            android:name=".ahmedabadloc"
+            android:label="@string/title_activity_ahmedabadloc" />
+        <activity
+            android:name=".bangaloreloc"
+            android:label="@string/title_activity_bangaloreloc" />
+        <activity
+            android:name=".chennailoc"
+            android:label="@string/title_activity_chennailoc" />
+        <activity
+            android:name=".delhiloc"
+            android:label="@string/title_activity_delhiloc" />
+        <activity
+            android:name=".hyderabadloc"
+            android:label="@string/title_activity_hyderabadloc" />
+        <activity
+            android:name=".jaipurloc"
+            android:label="@string/title_activity_jaipurloc" />
+        <activity
+            android:name=".kolkataloc"
+            android:label="@string/title_activity_kolkataloc" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"/>
+        <activity android:name=".ResetPass" />
+        <activity android:name=".ProfileSettings" />
+        <activity android:name=".puneinfo"
+            android:label="Information" />
+        <activity android:name=".punemon"
+            android:label="Monuments"/>
+        <activity android:name=".puneshop"
+            android:label="Shopping"/>
+        <activity android:name=".punehang"
+            android:label="HangOut"/>
+        <activity android:name=".punerest"
+            android:label="Restaurants"/>
+        <activity android:name=".mumbainfo"
+            android:label="Information" />
+        <activity android:name=".mumbaihang"
+            android:label="HangOut"/>
+        <activity android:name=".mumbaimon"
+            android:label="Monuments"/>
+        <activity android:name=".mumbairest"
+            android:label="Restaurants"/>
+        <activity android:name=".mumbaishop"
+            android:label="Shopping"/>
+        <activity android:name=".ahminfo"
+            android:label="Information"/>
+        <activity android:name=".ahmmon"
+            android:label="Monuments"/>
+        <activity android:name=".ahmhang"
+            android:label="HangOut"/>
+        <activity android:name=".ahmshop"
+            android:label="Shopping"/>
+        <activity android:name=".ahmrest"
+            android:label="Restaurants"/>
+        <activity android:name=".banginfo"
+            android:label="Information"/>
+        <activity android:name=".bangmon"
+            android:label="Monuments"/>
+        <activity android:name=".bangrest"
+            android:label="Restaurants"/>
+        <activity android:name=".bangshop"
+            android:label="Shopping"/>
+        <activity android:name=".banghang"
+            android:label="HangOut"/>
+        <activity android:name=".chennaimon"
+            android:label="Monuments"/>
+        <activity android:name=".chennaihang"
+            android:label="HangOut"/>
+        <activity android:name=".chennainfo"
+            android:label="Information"/>
+        <activity android:name=".chennaishop"
+            android:label="Shopping"/>
+        <activity android:name=".chennairest"
+            android:label="Restaurants"/>
+        <activity android:name=".delhinfo"
+            android:label="Information"/>
+        <activity android:name=".delhihang"
+            android:label="HangOut"/>
+        <activity android:name=".delhirest"
+            android:label="Restaurants"/>
+        <activity android:name=".delhishop"
+            android:label="Shopping"/>
+        <activity android:name=".kolkatainfo"
+            android:label="Information"/>
+        <activity android:name=".kolkatahang"
+            android:label="HangOut"/>
+        <activity android:name=".kolkatarest"
+            android:label="Restaurants"/>
+        <activity android:name=".kolkatashop"
+            android:label="Shopping"/>
+        <activity android:name=".hyderinfo"
+            android:label="Information"/>
+        <activity android:name=".hyperest" />
+        <activity android:name=".hyderhang"
+            android:label="HangOut"/>
+        <activity android:name=".hydermon"
+            android:label="Monuments"/>
+        <activity android:name=".jaipinfo"
+            android:label="Information"/>
+        <activity android:name=".jaiprest"
+            android:label="Restaurants"/>
+        <activity android:name=".jaipurhang"
+            android:label="HangOut"/>
+        <activity android:name=".jaipurmon"
+            android:label="Monuments"/>
+        <activity android:name=".delhimon"
+            android:label="Monuments"/>
+        <activity android:name=".hydershop"
+            android:label="Shopping"/>
+        <activity android:name=".jaipshop"
+            android:label="Shopping"/>
+        <activity android:name=".kolkatamon"
+            android:label="Monuments"/>
+        <activity android:name=".Journey" />
+        <activity android:name=".flight"
+            android:label="Flight"/>
+        <activity android:name=".rail"
+            android:label="Train"/>
+        <activity android:name=".dist"
+            android:label="Distance Calculator"/>
+
+    </application>
+
+</manifest>

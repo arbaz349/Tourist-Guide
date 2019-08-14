@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_layout"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/infp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="1.Fort St. George, India"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="297dp"
+            app:srcCompat="@drawable/cm1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fort St George (or historically, White Town) is the first English (later British) fortress in India, founded in 1644 at the coastal city of Madras, the modern city of Chennai. The construction of the fort provided the impetus for further settlements and trading activity, in what was originally an uninhabited land. Thus, it is a feasible contention to say that the city evolved around the fortress. The fort currently houses the Tamil Nadu legislative assembly and other official buildings. The fort is one of the 163 notified areas (megalithic sites) in the state of Tamil Nadu" />
+
+        <TextView
+            android:id="@+id/mon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="2.Marundeeswarar Temple"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="297dp"
+            app:srcCompat="@drawable/cm2" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marundeeswarar Temple is a temple dedicated to Hindu deity Shiva, located in Thiruvanmiyur, Chennai adjacent to the beach of Bay of Bengal " />
+
+        <TextView
+            android:id="@+id/hang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="3.Valluvar Kottam"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="509dp"
+            app:srcCompat="@drawable/cm3" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valluvar Kottam is a popular monument in Chennai, dedicated to the classical Tamil poet, philosopher, and saint, Thiruvalluvar. It is located at the intersection of the Kodambakkam High road and the Village road. The monument now stands at what was once the deepest point of a local lake" />
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="4.Ripon Building"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            app:srcCompat="@drawable/cm4" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Ripon Building is the seat of the Greater Chennai Corporation in Chennai, Tamil Nadu. It is a fine example of the Neoclassical style of architecture, a combination of, Ionic and Corinthian. The Ripon Building is an all-white structure and is located near the Chennai Central railway statio" />
+
+        <TextView
+            android:id="@+id/rest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="5. Victory War Memorial"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            app:srcCompat="@drawable/cm5" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Victory War Memorial, formerly called the Cupid's bow, is a memorial in Chennai, India, originally constructed to commemorate the victory of the Allied Armies during World War I (1914–1918) and later became the victory war memorial for World War II (1939–1945), erected in the memory of those from the Madras presidency who lost their lives in the wars. Later addition includes inscriptions of 1948 Kashmir Aggression, 1962 War with China and the Indo-Pakistan War."
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

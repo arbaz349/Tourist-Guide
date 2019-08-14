@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_layout"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/infp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="1.India Gate"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            app:srcCompat="@drawable/dm1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="India Gate is the most famous landmark of Delhi as well as India, located astride the Rajpath. The All India War Memorial in New Delhi is the one of tallest gate in India." />
+
+        <TextView
+            android:id="@+id/mon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="2.Red Fort"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            app:srcCompat="@drawable/dm2" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Red Fort is one of the historical place in Delhi and a designated a world heritage site. The fort and complex houses a number of museums, Mahal, Bagh,reservoir and Gate." />
+
+        <TextView
+            android:id="@+id/hang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="3.Qutub Minar"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="254dp"
+            app:srcCompat="@drawable/dm3" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qutub Minar is the tallest brick minaret in India and second highest minar in India after Fateh Burj at Punjab. The Qutub Minar complex is a UNESCO world heritage site and one of the must visit historical mounment in Delhi." />
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="4. Rashtrapati Bhavan"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="254dp"
+            app:srcCompat="@drawable/dm4" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rashtrapati Bhavan of New Delhi is the official home of the President of India and the largest residence of a head of state in the world. THe Presidential Residence house many halls,Dome and a beautiful Mughal Garden." />
+
+        <TextView
+            android:id="@+id/rest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="5.Lotus Temple"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            app:srcCompat="@drawable/dm5" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lotus Temple is a prominent attraction in the city of Delhi and notable in the world for its flowerlike shape. The Lotus Temple of Delhi is the most visited building in the world."
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

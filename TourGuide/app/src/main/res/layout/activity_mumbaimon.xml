@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_layout"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/infp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="1.Gateway of India"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/mm1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gateway of India monument is the synonymous with Mumbai,  located on the waterfront in South Mumbai. The Gateway of India is the starting point for tourists and most famous monument of Mumbai." />
+
+        <TextView
+            android:id="@+id/mon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="2.Taj Mahal Palace"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            app:srcCompat="@drawable/mm2" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Taj Mahal Palace hotel is located next to the Gateway of India and the iconic sea facing landmark of Mumbai. The iconic Taj Mahal Palace is Mumbai’s most famous landmark and one of the India’s most photographed monument. " />
+
+        <TextView
+            android:id="@+id/hang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="3.Asiatic Society Library"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="254dp"
+            app:srcCompat="@drawable/mm3" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asiatic Society Library is classified as a heritage structure and one of the very famous and old libraries in Mumbai. The Asiatic library at town Hall has very beautiful entrance and must see landmark of the city." />
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="4.Haji Ali Dargah"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            app:srcCompat="@drawable/mm4" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Haji Ali Dargah is one of the most popular religious places in Mumbai, located at the coast of Worli. The mosque and dargah is the most recognisable landmarks of Mumbai city and visited by an enormous number of pilgrims." />
+
+        <TextView
+            android:id="@+id/rest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="5.Mount Mary Church"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="288dp"
+            app:srcCompat="@drawable/mm5" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mount Mary Church at Bandra is one of the most famous Roman Catholic Basilica in India and visited by thousands of people annually. The Basilica of Our Lady of the Mount is located in Bandra and one of the major attraction and landmark of the city."
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

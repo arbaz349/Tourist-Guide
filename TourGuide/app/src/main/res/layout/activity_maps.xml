@@ -1,0 +1,68 @@
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.priyanka.mapsdemo.MapsActivity"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/bus" />
+
+    <Button
+        android:id="@+id/bus"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onClick"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:text="Bus" />
+
+    <Button
+        android:id="@+id/shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:background="@color/black"
+        android:onClick="onClick"
+        android:text="Shopping"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/rest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="90dp"
+        android:background="@color/black"
+        android:onClick="onClick"
+        android:text="Restaurants"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/train"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/black"
+        android:onClick="onClick"
+        android:text="Train"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

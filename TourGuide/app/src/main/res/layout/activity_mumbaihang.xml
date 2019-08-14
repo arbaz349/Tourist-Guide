@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_layout"
+        android:orientation="vertical"
+        android:layout_marginVertical="10dp">
+
+        <TextView
+            android:id="@+id/infp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="1.Marine Drive"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            app:srcCompat="@drawable/mh1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marine Drive is possibly Mumbai's best known road. This 3 kilometer stretch of boulevard, with Girgaum Chowpatty beach at the northern end, curves around the coast. Its feature is a seaside promenade where people flock to catch the evening breeze. Marine Drive is also referred to as the Queen's Necklace because of its string of sparkling lights, reflective of a row of jewels." />
+
+        <TextView
+            android:id="@+id/mon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="2.Shivaji Park"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="266dp"
+            app:srcCompat="@drawable/mh2" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shivaji Park, the largest park in Mumbai, has a long history. It was created in 1925, during the reign of the British Raj. The Britishers named it in honor of the 17th century warrior king of the region, Chhatrapati Shivaji. A large bronze statue of him riding his horse can be found to the north of the park. The park has hosted many gatherings of freedom fighters, and was the base for the struggle for the formation of the state of Maharashtra after Independence." />
+
+        <TextView
+            android:id="@+id/hang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="3.Bandra Bandstand"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            app:srcCompat="@drawable/mh3" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bandra Bandstand got its name from the old glory days of bandstand culture, when bands used to provide entertainment by playing outdoors there. It's characterized by an amphitheater set high on a hill above the ocean, and the remains of a Portuguese fort built in 1640." />
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="4.Carter Road, Bandra"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            app:srcCompat="@drawable/mme4" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="North of Bandra Bandstand, you'll find Carter Road promenade. It's a relatively new one kilometer stretch of seaside promenade, opened in 2002, much of which is bordered by mangroves. Projects to beautify it have been ongoing over the years." />
+
+        <TextView
+            android:id="@+id/rest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="5.Sanjay Gandhi National Park, Borivali"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="218dp"
+            app:srcCompat="@drawable/mme5" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sanjay Gandhi National Park is the only protected forest to be located within the limits of a city in India. It receives thousands of early morning walkers, as well as families and couples during the day. The various attractions include trekking, a toy train, boating on the late, and a tiger and lion sanctuary. However, what's really worth seeing are the hand-cut Kanheri Buddhist caves. There are 109 of them in various sizes, scattered over a hilltop and carved out of volcanic rock. The largest has a deep chamber for worship and towering sculptures of Buddha."
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

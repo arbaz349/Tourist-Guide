@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_layout"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/infp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="1.Adalaj Stepwell"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            app:srcCompat="@drawable/am1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oone of the famous monuments in Ahmedabad located in the village of Adalaj, it was built in the year 1499 by Queen Rudabai. The main attraction of this well is the Indo-Islamic architecture. The walls of this well are beautifully carved with scenes of women shaking buttermilk, kings, dancers, and musicians, besides other fantastic scenes. The another main feature of this stepwell is the three entrance stairs out of many step wells in Gujarat." />
+
+        <TextView
+            android:id="@+id/mon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="2.Dada Hari Ni Vav"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            app:srcCompat="@drawable/am2" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dada Hari Ni Vav is an another famous stepwell in Ahmedabad built About 500 years ago during the reign of Mehmood Begada, Dada Hari Ni Vav was a step. It is not only designed to store water but also works as a comfortable place for travelers. This is proof that water conservation was also a good idea in history. Since Dada is Hari’s grave behind the wind, its name is Dada Hari Ni Vav." />
+
+        <TextView
+            android:id="@+id/hang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="3.Sarkhej Roza"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            app:srcCompat="@drawable/am3" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sarkhej Roza is also known as Ahmedabad’s Acropolis. Since its design is often compared to the famous Acropolis of Athens, in the beginning, Sarkhej Roja was a major center of Sufi culture and where Sufi saint, Ganj Baksh used to live. It was built by Mohammed Shah in his honor, unlike other mosques, it does not have an arch size gate, but a flat roof with 10 flat domes and 120 columns." />
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="4.Bhadra Fort"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="262dp"
+            app:srcCompat="@drawable/am4" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="One of the historical place in Ahmedabad. When we talk about the monuments in Ahmedabad, the Bhadra Fort is a name that truly deserves a special mention. Located on the eastern bank of the Sabarmati river, it was built by Ahmed Shah of Muzaffarid in 1411. The main attraction of this fort is the Kishore Darwaja or the Maidan Shahi." />
+
+        <TextView
+            android:id="@+id/rest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="5.Ahmad Shah’s Tomb"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            app:srcCompat="@drawable/am5" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Tomb of Ahmed Shah is one of the most important monuments in Ahmedabad, The tomb is located outside the east gate of Jama Masjid. Ahmad Shah’s tomb is a perfect example of the beautiful architecture of the bygone era. This is one of the beautiful monuments in Ahmedabad attracts tourists from all over."
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

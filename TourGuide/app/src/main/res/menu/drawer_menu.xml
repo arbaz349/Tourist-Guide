@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/nav_grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_city"
+            android:icon="@drawable/ic_location_city_black"
+            android:title="Destinations" />
+
+        <item
+            android:id="@+id/nav_travel"
+            android:icon="@drawable/ic_explore_black_24dp"
+            android:title="Explore" />
+
+
+        <item
+            android:id="@+id/nav_utility"
+            android:icon="@drawable/ic_utilities"
+            android:title="Utilities" />
+
+        <item
+            android:id="@+id/nav_journey"
+            android:icon="@drawable/ic_directions_car_black"
+            android:title="Travel" />
+
+    </group>
+
+    <group
+        android:id="@+id/nav_grp2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_about_us"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Sign Out" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+
+    </group>
+</menu>

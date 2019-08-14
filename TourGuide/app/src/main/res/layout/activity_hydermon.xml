@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_layout"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/infp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="1.Charminar"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="323dp"
+            app:srcCompat="@drawable/hm1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="One of the most popular historical monuments in Hyderabad, the Charminar was built by Mohammed Quli Qutub Shah in the year 1951. Made of granite and lime mortar, the structure depicts the indo- Arabian architecture. It is this monument which has come to symbolize the city of Hyderabad." />
+
+        <TextView
+            android:id="@+id/mon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="2.Chowmahalla Palace"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="257dp"
+            app:srcCompat="@drawable/hm2" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sprawling courtyards, impeccable architecture and unending tourist footfall,  the Chowmahalla Palace in Hyderabad promise it all. Though only some parts of the palace are open to the public, yet they are enough to mesmerize the tourists with their sheer charm and grace." />
+
+        <TextView
+            android:id="@+id/hang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="3.Asman Garh Palace"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="251dp"
+            app:srcCompat="@drawable/hm3" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sir Asman Jah in the year 1885 gave Hyderabad another architectural gem to boast of which is now popularly known as the Asman Garh Palace.
+One of the finest models of the gothic architecture in the Indian subcontinent, this palace has the look like that of a medieval castle of Europe. The arched windows and the granite turrets are the characters of the place. This building now houses a school." />
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="4.Spanish Mosque"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="262dp"
+            app:srcCompat="@drawable/hm4" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masjid Iqbal ud Daula or Aiwan – E- Begumpet as the Spanish Mosque is also called, is among the most distinguished structures of a mosque in the country.
+A construction was undertaken by the Paigah Noble, Vikhar- Ul- Umra Iqbal- Ud- Dowla, this mosque was completed in the year 1906. Owing to its differentiated Moorish architecture, the mosque is called the Mosque of the Moors." />
+
+        <TextView
+            android:id="@+id/rest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:text="5.Raymond’s Obelisk"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            app:srcCompat="@drawable/hm5" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Also called the Raymond’s Tomb, Raymond’s Obelisk is a monument constructed in the memory of Michel Joachim Marie Raymond, a Frenchman who served in the Nizam army and was a good friend to the Nizam.
+Quite neglected in the past, this 7m high black granite tomb is now garnering care after coming in the purview of government maintenance. This memorial is till date facilitated each year."
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>
